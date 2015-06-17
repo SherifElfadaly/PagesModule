@@ -6,7 +6,7 @@
 	"repo_link": "https:\/\/github.com\/SherifElfadaly\/PagesModule.git",
 	"type" : "plugin",
 	"enabled": true, 
-	"module_parts": ["Page"],
+	"module_parts": ["Pages"],
     "module_parts_menu": ["Page"],
     "order" : 6
 }

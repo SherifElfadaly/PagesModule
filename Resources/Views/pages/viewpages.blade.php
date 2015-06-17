@@ -19,6 +19,11 @@
 						<th>{{ $page->id }}</th>
 						<th>{{ $page->title }}</th>
 						<th>{{ $page->page_slug }}</th>
+						<th>
+							@if(\CMS::permissions()->can('show', 'Seos'))
+								<a class="btn btn-default" href='{{ url("admin/seo/show/page/$page->id") }}' role="button">SEO</a>
+							@endif
+						</th>
 					</tr>
 				@endforeach
 			</tbody>
