@@ -1,6 +1,6 @@
 <?php namespace App\Modules\Pages\Repositories;
 
-use App\AbstractRepositories\AbstractRepository;
+use App\Modules\Core\AbstractRepositories\AbstractRepository;
 
 class PageRepository extends AbstractRepository
 {	
