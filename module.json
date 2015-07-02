@@ -3,7 +3,7 @@
 	"slug": "pages",
 	"version": "1.0",
 	"description": "This is the description for the Widget module.",
-	"repo_link": "https:\/\/github.com\/SherifElfadaly\/PagesModule.git",
+	"repo_link": "https://github.com/SherifElfadaly/PagesModule.git",
 	"type" : "plugin",
 	"enabled": true, 
 	"module_parts": ["Pages"],
